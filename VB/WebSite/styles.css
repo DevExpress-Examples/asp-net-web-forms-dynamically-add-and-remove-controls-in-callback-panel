@@ -1,0 +1,39 @@
+﻿.close
+{
+    width: 1em;
+    height: 1em;
+    border: 1px solid Gray;
+    float: right !important;
+    margin-left: 4px;
+}
+.close a
+{
+    line-height: 0.8em;
+    display: block;
+    height: 100%;
+}
+.close a:hover
+{
+    background-color: Silver;
+}
+.buttons
+{
+    padding-bottom: 12px;
+}
+.buttons div
+{
+    float: left;
+}
+div.clear
+{
+    clear: left;
+    float: none;
+}
+.tab
+{
+        width: 57px;
+}
+.tab div
+{
+    float: left;
+}
