@@ -2,12 +2,12 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
-* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 * [styles.css](./CS/WebSite/styles.css)
 * [TabContentType1.ascx](./CS/WebSite/TabsContent/TabContentType1.ascx) (VB: [TabContentType1.ascx](./VB/WebSite/TabsContent/TabContentType1.ascx))
-* [TabContentType1.ascx.cs](./CS/WebSite/TabsContent/TabContentType1.ascx.cs) (VB: [TabContentType1.ascx](./VB/WebSite/TabsContent/TabContentType1.ascx))
+* [TabContentType1.ascx.cs](./CS/WebSite/TabsContent/TabContentType1.ascx.cs) (VB: [TabContentType1.ascx.vb](./VB/WebSite/TabsContent/TabContentType1.ascx.vb))
 * [TabContentType2.ascx](./CS/WebSite/TabsContent/TabContentType2.ascx) (VB: [TabContentType2.ascx](./VB/WebSite/TabsContent/TabContentType2.ascx))
-* [TabContentType2.ascx.cs](./CS/WebSite/TabsContent/TabContentType2.ascx.cs) (VB: [TabContentType2.ascx](./VB/WebSite/TabsContent/TabContentType2.ascx))
+* [TabContentType2.ascx.cs](./CS/WebSite/TabsContent/TabContentType2.ascx.cs) (VB: [TabContentType2.ascx.vb](./VB/WebSite/TabsContent/TabContentType2.ascx.vb))
 <!-- default file list end -->
 # How to dynamically add and remove controls within ASPxCallbackPanel on callbacks
 
