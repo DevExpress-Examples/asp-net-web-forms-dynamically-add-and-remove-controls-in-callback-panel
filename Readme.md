@@ -7,6 +7,9 @@
 * [TabContentType2.ascx](./CS/WebSite/TabsContent/TabContentType2.ascx) (VB: [TabContentType2.ascx](./VB/WebSite/TabsContent/TabContentType2.ascx))
 <!-- default file list end -->
 # How to dynamically add and remove controls within ASPxCallbackPanel on callbacks
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4113/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how you can dynamically add and remove controls within an ASPxCallbackPanel on callbacks. In this case, a ViewState is not applied so it should be disabled (the EnableViewState property is set to false). A hierarchy of controls, which have been created on callbacks, should be recreated on <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.control.init">Page.Init</a> event.</p><br />
