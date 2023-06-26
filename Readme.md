@@ -16,7 +16,7 @@
 <!-- default file list end -->
 # How to dynamically add and remove controls within ASPxCallbackPanel on callbacks
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4113/)**
+**[[Run Online]](https://codecentral.devexpress.com/128564258/)**
 <!-- run online end -->
 
 
