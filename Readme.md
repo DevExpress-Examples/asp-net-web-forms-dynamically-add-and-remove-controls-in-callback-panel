@@ -11,11 +11,11 @@
 
 This example demonstrates how to dynamically add and remove controls in [ASPxCallbackPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallback) on callbacks. 
 
-In this example, `ASPxCallbackPanel` contains [ASPxPageControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPageControl). Buttons at the top of the page, allow users to dynamically add tab pages with custom content to the `ASPxPageControl` on callbacks.
+In this example, `ASPxCallbackPanel` contains [ASPxPageControl](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPageControl). Buttons at the top of the page allow users to dynamically add tab pages with custom content to the `ASPxPageControl` on callbacks.
 
 ![](image.png)
 
- A view state is not applied in this scenario and should be disabled (the [EnableViewState](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.control.enableviewstate) property is set to `false`). 
+View state is not applied in this scenario and should be disabled (the [EnableViewState](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.control.enableviewstate) property is set to `false`). 
 
 ```aspx
 <dx:ASPxCallbackPanel ID="CallbackPanel" runat="server" ClientInstanceName="callbackPanel" OnCallback="CallbackHandler">
@@ -43,7 +43,7 @@ function AddTab(type) {
 }
 ```
 
-At the server side, a [Callback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallbackPanel.Callback) event handler adds or removes tab pages in `ASPxPageControl` and saves information about tabs to a [Session](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.page.session) object.
+On the server side, a [Callback](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallbackPanel.Callback) event handler adds or removes tab pages in `ASPxPageControl` and saves information about tabs to a [Session](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.page.session) object.
 
 ```csharp
 protected void CallbackHandler(object sender, CallbackEventArgsBase e) {
@@ -58,7 +58,7 @@ protected void CallbackHandler(object sender, CallbackEventArgsBase e) {
 }
 ```
 
-Since controls are created on callbacks, the [Page.Init](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.control.init) event is handles to recreate control hierarchy on the page initialization.
+Since controls are created on callbacks, the [Page.Init](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.control.init) event is handled to recreate the control hierarchy on page initialization.
 
 ```csharp
 protected void Page_Init(object sender, EventArgs e) {
