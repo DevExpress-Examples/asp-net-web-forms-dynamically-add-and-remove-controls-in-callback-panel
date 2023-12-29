@@ -5,9 +5,6 @@
 <!-- default badges end -->
 
 # ASP.NET Web Forms - How to dynamically add and remove controls in ASPxCallbackPanel on callbacks
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128564258/)**
-<!-- run online end -->
 
 This example demonstrates how to dynamically add and remove controls in [ASPxCallbackPanel](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxCallback) on callbacks. 
 
