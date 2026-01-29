@@ -1,4 +1,4 @@
-﻿<%@ Control Language="vb" AutoEventWireup="true" CodeBehind="TabContentType2.ascx.vb" Inherits="PageControlWithinCallbackPanel.TabsContent.TabContentType2" %>
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="TabContentType2.ascx.cs" Inherits="PageControlWithinCallbackPanel.TabsContent.TabContentType2" %>
 <dx:ASPxGridView ID="grid" runat="server" DataSourceID="AccessDataSource1" 
     AutoGenerateColumns="False" KeyFieldName="ProductID">
     <Columns>

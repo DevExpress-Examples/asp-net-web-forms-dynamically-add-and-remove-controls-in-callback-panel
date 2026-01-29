@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="PageControlWithinCallbackPanel.Default" %>
+<%@ Page Language="VB" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="PageControlWithinCallbackPanel.Default" %>
 
 <!DOCTYPE html>
 
@@ -18,7 +18,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-
+        
         <div class="buttons">
             <div>
                 <dx:ASPxButton ID="Button1" runat="server" Text="Add Tab Type 1" AutoPostBack="false">
@@ -39,9 +39,9 @@
                     <dx:ASPxPageControl ID="PageControl" runat="server" EnableViewState="false" Height="500" Width="100%">
                         <TabTemplate>
                             <div class="tab">
-                                <div><%#Container.TabPage.Text%></div>
+                                <div><%# Container.TabPage.Text %></div>
                                 <div class="close">
-                                    <a onclick="RemoveTab(<%#Container.TabPage.Index%>); return ASPxClientUtils.PreventEventAndBubble(event);">x</a>
+                                    <a onclick="RemoveTab(<%# Container.TabPage.Index %>); return ASPxClientUtils.PreventEventAndBubble(event);">x</a>
                                 </div>
                             </div>
                         </TabTemplate>

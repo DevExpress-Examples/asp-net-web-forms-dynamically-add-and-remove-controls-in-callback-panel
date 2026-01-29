@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="PageControlWithinCallbackPanel.Global_asax" Language="vb" %>
+<%@ Application Codebehind="Global.asax.vb" Inherits="PageControlWithinCallbackPanel.Global_asax" Language="VB" %>
